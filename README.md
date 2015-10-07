@@ -3,6 +3,7 @@
 To run press :
 
 $make clean
+
 $make all
 
 Enter a command when the " >" prompt appears.
