@@ -2,9 +2,8 @@
 
 To run press :
 
-make clean
-
-make all
+$make clean
+$make all
 
 Enter a command when the " >" prompt appears.
 The command is read and parsed (returned in reverse order by the parser). Subsequently the command gets 
