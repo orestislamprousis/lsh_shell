@@ -1,6 +1,7 @@
 #lsh_shell
 
 To run press :
+
 make clean
 
 make all
