@@ -1,0 +1,329 @@
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:01 /sbin/init
+    2 ?        S      0:00 [kthreadd]
+    3 ?        S      0:16 [migration/0]
+    4 ?        S      0:05 [ksoftirqd/0]
+    5 ?        S      0:00 [migration/0]
+    6 ?        S      0:01 [watchdog/0]
+    7 ?        S      1:03 [migration/1]
+    8 ?        S      0:00 [migration/1]
+    9 ?        S      0:03 [ksoftirqd/1]
+   10 ?        S      0:01 [watchdog/1]
+   11 ?        S      0:10 [migration/2]
+   12 ?        S      0:00 [migration/2]
+   13 ?        S      0:04 [ksoftirqd/2]
+   14 ?        S      0:01 [watchdog/2]
+   15 ?        S      1:05 [migration/3]
+   16 ?        S      0:00 [migration/3]
+   17 ?        S      0:03 [ksoftirqd/3]
+   18 ?        S      0:01 [watchdog/3]
+   19 ?        S      2:46 [events/0]
+   20 ?        S      0:47 [events/1]
+   21 ?        S      1:23 [events/2]
+   22 ?        S      1:19 [events/3]
+   23 ?        S      0:00 [cgroup]
+   24 ?        S      0:00 [khelper]
+   25 ?        S      0:00 [netns]
+   26 ?        S      0:00 [async/mgr]
+   27 ?        S      0:00 [pm]
+   28 ?        S      0:04 [sync_supers]
+   29 ?        S      0:05 [bdi-default]
+   30 ?        S      0:00 [kintegrityd/0]
+   31 ?        S      0:00 [kintegrityd/1]
+   32 ?        S      0:00 [kintegrityd/2]
+   33 ?        S      0:00 [kintegrityd/3]
+   34 ?        S      0:31 [kblockd/0]
+   35 ?        S      0:01 [kblockd/1]
+   36 ?        S      0:13 [kblockd/2]
+   37 ?        S      0:00 [kblockd/3]
+   38 ?        S      0:00 [kacpid]
+   39 ?        S      0:00 [kacpi_notify]
+   40 ?        S      0:00 [kacpi_hotplug]
+   41 ?        S      1:59 [ata/0]
+   42 ?        S      0:40 [ata/1]
+   43 ?        S      0:53 [ata/2]
+   44 ?        S      0:18 [ata/3]
+   45 ?        S      0:00 [ata_aux]
+   46 ?        S      0:00 [ksuspend_usbd]
+   47 ?        S      0:00 [khubd]
+   48 ?        S      0:00 [kseriod]
+   49 ?        S      0:00 [md/0]
+   50 ?        S      0:00 [md/1]
+   51 ?        S      0:00 [md/2]
+   52 ?        S      0:00 [md/3]
+   53 ?        S      0:00 [md_misc/0]
+   54 ?        S      0:00 [md_misc/1]
+   55 ?        S      0:00 [md_misc/2]
+   56 ?        S      0:00 [md_misc/3]
+   57 ?        S      0:00 [khungtaskd]
+   58 ?        S      0:00 [kswapd0]
+   59 ?        SN     0:00 [ksmd]
+   60 ?        SN     0:13 [khugepaged]
+   61 ?        S      0:00 [aio/0]
+   62 ?        S      0:00 [aio/1]
+   63 ?        S      0:00 [aio/2]
+   64 ?        S      0:00 [aio/3]
+   65 ?        S      0:00 [crypto/0]
+   66 ?        S      0:00 [crypto/1]
+   67 ?        S      0:00 [crypto/2]
+   68 ?        S      0:00 [crypto/3]
+   73 ?        S      0:00 [kthrotld/0]
+   74 ?        S      0:00 [kthrotld/1]
+   75 ?        S      0:00 [kthrotld/2]
+   76 ?        S      0:00 [kthrotld/3]
+   78 ?        S      0:00 [kpsmoused]
+   79 ?        S      0:00 [usbhid_resumer]
+  110 ?        S      0:00 [iscsi_eh]
+  118 ?        S      0:00 [cxgb4]
+  121 ?        S      0:00 [cnic_wq]
+  122 ?        S<     0:00 [bnx2i_thread/0]
+  123 ?        S<     0:00 [bnx2i_thread/1]
+  124 ?        S<     0:00 [bnx2i_thread/2]
+  125 ?        S<     0:00 [bnx2i_thread/3]
+  138 ?        S      0:00 [kstriped]
+  301 pts/0    T      0:00 ./lsh
+  322 ?        S      0:00 [scsi_eh_0]
+  323 ?        S      0:00 [scsi_eh_1]
+  333 ?        S      0:00 [scsi_eh_2]
+  334 ?        S     11:16 [scsi_eh_3]
+  335 ?        S      0:00 [scsi_eh_4]
+  336 ?        S      0:00 [scsi_eh_5]
+  416 ?        S      0:46 [jbd2/sda3-8]
+  417 ?        S      0:00 [ext4-dio-unwrit]
+  418 ?        S      0:00 [ext4-dio-unwrit]
+  419 ?        S      0:00 [ext4-dio-unwrit]
+  420 ?        S      0:00 [ext4-dio-unwrit]
+  451 ?        S      0:13 [flush-8:0]
+  525 ?        S<s    0:00 /sbin/udevd -d
+  703 ?        S      0:00 [hd-audio0]
+  721 ?        S      0:00 [hd-audio1]
+  792 pts/0    T      0:00 ./lsh
+  845 pts/0    T      0:00 ./lsh
+ 1816 ?        S      0:00 [kvm-irqfd-clean]
+ 1865 ?        S      0:00 [jbd2/sda1-8]
+ 1866 ?        S      0:00 [ext4-dio-unwrit]
+ 1867 ?        S      0:00 [ext4-dio-unwrit]
+ 1868 ?        S      0:00 [ext4-dio-unwrit]
+ 1869 ?        S      0:00 [ext4-dio-unwrit]
+ 1870 ?        S      0:01 [jbd2/sda4-8]
+ 1871 ?        S      0:00 [ext4-dio-unwrit]
+ 1872 ?        S      0:00 [ext4-dio-unwrit]
+ 1873 ?        S      0:00 [ext4-dio-unwrit]
+ 1874 ?        S      0:00 [ext4-dio-unwrit]
+ 1923 ?        S      0:00 [kauditd]
+ 1952 ?        Sl     0:02 /usr/bin/gnome-terminal -x /bin/sh -c cd '/chalmers/users/orestis' && exec $SHELL
+ 1953 ?        S      0:00 gnome-pty-helper
+ 1954 pts/0    Ss     0:00 /bin/bash
+ 2290 ?        S      0:00 /sbin/pppoe-server -I eth0
+ 2298 ?        S<sl   0:03 auditd
+ 2300 ?        S<sl   0:02 /sbin/audispd
+ 2301 ?        S<     0:00 /usr/sbin/sedispatch
+ 2318 ?        Ss     0:00 /sbin/portreserve
+ 2325 ?        Sl     0:03 /sbin/rsyslogd -i /var/run/syslogd.pid -c 2
+ 2344 ?        S<     0:00 [kslowd000]
+ 2345 ?        S<     0:00 [kslowd001]
+ 2348 ?        Ss     0:02 cachefilesd -f /etc/cachefilesd.conf
+ 2369 ?        S      5:21 [kondemand/0]
+ 2370 ?        S      2:48 [kondemand/1]
+ 2371 ?        S      3:11 [kondemand/2]
+ 2372 ?        S      2:12 [kondemand/3]
+ 2396 ?        Ss     3:48 irqbalance
+ 2415 ?        Ss     0:01 rpcbind
+ 2429 ?        Ss     0:00 /usr/sbin/cgdcbxd
+ 2439 ?        Ss     0:55 lldpad -d
+ 2446 ?        S      0:00 [scsi_tgtd/0]
+ 2447 ?        S      0:00 [scsi_tgtd/1]
+ 2448 ?        S      0:00 [scsi_tgtd/2]
+ 2449 ?        S      0:00 [scsi_tgtd/3]
+ 2453 ?        S      0:00 [fc_exch_workque]
+ 2454 ?        S      0:00 [fc_rport_eq]
+ 2456 ?        S      0:00 [fcoe_work/0]
+ 2457 ?        S      0:00 [fcoe_work/1]
+ 2458 ?        S      0:00 [fcoe_work/2]
+ 2459 ?        S      0:00 [fcoe_work/3]
+ 2460 ?        S<     0:00 [fcoethread/0]
+ 2461 ?        S<     0:00 [fcoethread/1]
+ 2462 ?        S<     0:00 [fcoethread/2]
+ 2463 ?        S<     0:00 [fcoethread/3]
+ 2464 ?        S      0:00 [bnx2fc]
+ 2465 ?        S<     0:00 [bnx2fc_l2_threa]
+ 2466 ?        S<     0:00 [bnx2fc_thread/0]
+ 2467 ?        S<     0:00 [bnx2fc_thread/1]
+ 2468 ?        S<     0:00 [bnx2fc_thread/2]
+ 2469 ?        S<     0:00 [bnx2fc_thread/3]
+ 2472 ?        Ss     0:10 /usr/sbin/fcoemon --syslog
+ 2485 ?        S      0:00 [target_completi]
+ 2486 ?        S      0:00 [target_completi]
+ 2487 ?        S      0:00 [target_completi]
+ 2488 ?        S      0:00 [target_completi]
+ 2489 ?        S      0:00 [LIO_rd_mcp]
+ 2513 ?        Ss     0:09 dbus-daemon --system
+ 2523 ?        Ssl    0:03 NetworkManager --pid-file=/var/run/NetworkManager/NetworkManager.pid
+ 2526 ?        S      0:00 /usr/sbin/modem-manager
+ 2531 ?        S      0:00 /sbin/dhclient -d -4 -sf /usr/libexec/nm-dhcp-client.action -pf /var/run/dhclient-eth0.pid -lf /var/lib/dhclient/dhclient-ff9295dd-3364-4546-abd1-e4f7a4a460c2-eth0.lease -cf /var/run/nm-dhclient-eth0.conf eth0
+ 2534 ?        Ss     0:00 /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -B -u -f /var/log/wpa_supplicant.log -P /var/run/wpa_supplicant.pid
+ 2548 ?        S      0:25 avahi-daemon: running [ed3354-07.local]
+ 2549 ?        Ss     0:00 avahi-daemon: chroot helper
+ 2578 ?        Ss     0:00 rpc.statd
+ 2614 ?        S      0:47 [rpciod/0]
+ 2615 ?        S      0:18 [rpciod/1]
+ 2616 ?        S      1:04 [rpciod/2]
+ 2617 ?        S      0:21 [rpciod/3]
+ 2635 ?        S      0:12 [nfsiod]
+ 2640 ?        Ss     1:02 rpc.gssd
+ 2662 ?        Ss     0:00 rpc.idmapd
+ 2685 ?        Ss     0:00 /usr/sbin/acpid
+ 2694 ?        Ss     0:07 hald
+ 2695 ?        S      0:00 hald-runner
+ 2774 ?        S      0:06 hald-addon-input: Listening on /dev/input/event5 /dev/input/event4 /dev/input/event0 /dev/input/event1 /dev/input/event10
+ 2783 ?        S      0:00 hald-addon-acpi: listening on acpid socket /var/run/acpid.socket
+ 2790 ?        S      6:02 hald-addon-storage: polling /dev/sr0 (every 2 sec)
+ 2805 ?        S<     0:00 /sbin/udevd -d
+ 2891 ?        S      6:04 /.cocli-GFjetQfg/ibin/venus
+ 3052 ?        Ss     0:00 sshd --library-path /coda/cdal.chalmers.se/sw/1/1/a4y sshd /cdal.chalmers.se/sw/1/Z/Vo0/sshd -f /var/htb/lrw/a/rh6_serv-t/sshd_config
+ 3073 ?        S      0:00 [nfsv4.0-svc]
+ 3296 ?        Ss     0:00 /usr/sbin/hv_kvp_daemon
+ 3318 ?        Ssl    0:00 pcscd
+ 3334 ?        Ssl    0:16 automount --pid-file /var/run/autofs.pid
+ 3376 ?        Ss     0:00 /usr/sbin/mcelog --daemon
+ 3384 ?        Ss     0:00 xinetd -stayalive -pidfile /var/run/xinetd.pid
+ 3392 ?        Ss     0:01 ntpd -u ntp:ntp -p /var/run/ntpd.pid -g
+ 3402 ?        Ss     0:00 uuidd
+ 3429 ?        S      0:00 [afs_pagecopy]
+ 3434 ?        S      0:00 [afs_callback]
+ 3436 ?        S      0:00 [afs_rxlistener]
+ 3437 ?        S      0:43 [afs_rxevent]
+ 3438 ?        Ss     0:00 /usr/local/sbin/afsd -afsdb -dynroot -fakestat-all
+ 3441 ?        S      0:03 [afsd]
+ 3443 ?        S      0:00 [afs_background]
+ 3446 ?        S      0:00 [afs_background]
+ 3448 ?        S      0:00 [afs_background]
+ 3449 ?        S      0:01 [afs_checkserver]
+ 3450 ?        S      0:00 [afs_background]
+ 3452 ?        S      0:00 [afs_cachetrim]
+ 3528 ?        Ss     0:03 /usr/libexec/postfix/master
+ 3538 ?        S      0:00 qmgr -l -t fifo -u
+ 3552 ?        Ss     0:00 /usr/sbin/abrtd
+ 3565 ?        Ss     0:22 /usr/sbin/gpm -m /dev/input/mice -t exps2
+ 3575 ?        S      0:30 /bin/bash /usr/sbin/ksmtuned
+ 3584 ?        Ss     0:03 crond
+ 3595 ?        Ss     0:00 /usr/sbin/atd
+ 3618 ?        Sl     5:39 /usr/bin/python /usr/share/virt-who/virt-who.py
+ 3633 ?        Sl     4:40 libvirtd --daemon
+ 3657 ?        Ss     0:00 rhnsd
+ 3668 ?        Ss     0:00 /usr/bin/rhsmcertd
+ 3702 ?        S<     0:00 /sbin/udevd -d
+ 3749 ?        S      0:00 /usr/sbin/dnsmasq --strict-order --local=// --domain-needed --pid-file=/var/run/libvirt/network/default.pid --conf-file= --except-interface lo --bind-interfaces --listen-address 192.168.122.1 --dhcp-range 192.168.122.2,192.168.122.254 --dhcp-leasefile=/var/lib/libvirt/dnsmasq/default.leases --dhcp-lease-max=253 --dhcp-no-override --dhcp-hostsfile=/var/lib/libvirt/dnsmasq/default.hostsfile --addn-hosts=/var/lib/libvirt/dnsmasq/default.addnhosts
+ 3751 ?        S      0:10 python /usr/bin/denyhosts.py --daemon --config=/usr/share/denyhosts/denyhosts.cfg
+ 3761 ?        S      1:26 /usr/sbin/cimserver
+ 3762 ?        Sl     0:01 cimservermain --executor-socket 3
+ 3940 ?        SNl   10:56 aex-pluginmanager.bin -D
+ 3944 ?        SNl   12:24 aex-pluginmanager -F -nm -nc
+ 3960 ?        Ss     0:01 /usr/sbin/certmonger -S -p /var/run/certmonger.pid
+ 3974 ?        Ss     0:00 /usr/sbin/cupsd -C /etc/cups/cupsd.conf
+ 4034 ?        Ss     0:00 /usr/sbin/sshd
+ 4053 ?        S     10:30 sh /coda/cdal.chalmers.se/htb/1/bundle/A/actions/rh6_init/hbscheduler_start
+ 4057 ?        Ss     0:00 /usr/sbin/gdm-binary -nodaemon
+ 4062 tty2     Ss+    0:00 /sbin/mingetty /dev/tty2
+ 4064 tty3     Ss+    0:00 /sbin/mingetty /dev/tty3
+ 4066 tty4     Ss+    0:00 /sbin/mingetty /dev/tty4
+ 4068 tty5     Ss+    0:00 /sbin/mingetty /dev/tty5
+ 4070 tty6     Ss+    0:00 /sbin/mingetty /dev/tty6
+ 4228 ?        Sl     0:01 /usr/sbin/console-kit-daemon --no-daemon
+ 4303 ?        S      0:00 /usr/libexec/devkit-power-daemon
+ 4412 ?        S      0:02 /usr/libexec/polkit-1/polkitd
+ 4426 ?        SNl    0:17 /usr/libexec/rtkit-daemon
+ 5282 ?        Ssl    5:42 /usr/sbin/nscd
+ 5850 pts/0    T      0:00 ./lsh
+ 6702 ?        S      0:00 /usr/libexec/gdm-simple-slave --display-id /org/gnome/DisplayManager/Display1
+ 6715 tty7     Ss+    3:30 /usr/bin/Xorg :0 -br -verbose -audit 4 -auth /var/run/gdm/auth-for-gdm-o47N59/database -nolisten tcp
+ 6857 ?        S      0:00 /usr/bin/dbus-launch --exit-with-session
+ 7315 ?        S      0:38 /usr/libexec/udisks-daemon
+ 7321 ?        S      2:44 udisks-daemon: polling /dev/sr0
+ 9170 pts/0    T      0:00 ./lsh
+11488 pts/0    S+     0:00 ./lsh
+12167 ?        S      0:04 /usr/lib/nspluginwrapper/npviewer.bin --plugin /usr/lib/mozilla/plugins/nppdf.so --connection /org/wrapper/NSPlugins/nppdf.so/19403-2/1185030120
+12187 ?        Sl     0:17 /usr/lib/acroread/Reader/intellinux/bin/acroread --display :0.0 -progressPipe 3 -exitPipe 4
+12900 ?        Sl     0:32 /usr/bin/evince file:///tmp/assignment1.pdf
+13175 ?        S      0:00 sleep 60
+13780 pts/0    T      0:00 ./lsh
+13849 pts/0    T      0:00 ./lsh
+14059 ?        S      0:00 sleep 5
+14060 pts/1    R+     0:00 ps -ax
+14061 pts/1    S+     0:00 tee processes.txt
+14062 pts/1    S+     0:00 more
+14388 ?        S      0:19 gedit /chalmers/users/orestis/Desktop/lab1_mine/lsh.c
+15135 pts/0    T      0:00 wc -l
+15136 pts/0    T      0:00 wc -l
+15678 pts/0    T      0:00 ./lsh
+15852 pts/0    T      0:00 wc -l
+15853 pts/0    T      0:00 wc -l
+18137 ?        S      0:00 pam: gdm-password
+18417 ?        Sl     0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+18478 ?        Ssl    0:00 gnome-session
+18486 ?        S      0:00 dbus-launch --sh-syntax --exit-with-session
+18487 ?        Ss     0:00 /bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+18627 ?        Ss     0:00 /usr/bin/seahorse-agent --variables
+18631 ?        S      0:00 /usr/libexec/gvfsd
+18636 ?        S      0:01 /usr/libexec/gconfd-2
+18739 ?        Ssl    0:01 /usr/libexec/gnome-settings-daemon
+18740 ?        Ss     0:00 seahorse-daemon
+18760 ?        Sl     0:03 metacity
+18764 ?        S<sl   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+18765 ?        S      0:02 gnome-panel
+18766 ?        S      0:07 nautilus
+18768 ?        Ssl    0:00 /usr/libexec/bonobo-activation-server --ac-activate --ior-output-fd=18
+18773 ?        S      0:00 bluetooth-applet
+18784 ?        S      0:12 /usr/libexec/wnck-applet --oaf-activate-iid=OAFIID:GNOME_Wncklet_Factory --oaf-ior-fd=18
+18786 ?        S      0:00 /usr/libexec/trashapplet --oaf-activate-iid=OAFIID:GNOME_Panel_TrashApplet_Factory --oaf-ior-fd=24
+18787 ?        S      0:00 gnome-volume-control-applet
+18793 ?        S      0:00 /usr/libexec/gvfs-gdu-volume-monitor
+18794 ?        S      0:00 abrt-applet
+18797 ?        S      0:00 nm-applet --sm-disable
+18799 ?        S      0:00 python /usr/share/system-config-printer/applet.py
+18802 ?        S      0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+18806 ?        S      0:00 /usr/libexec/pulse/gconf-helper
+18807 ?        S      0:00 /usr/libexec/gdu-notification-daemon
+18811 ?        Sl     0:03 ./escd --key_Inserted="/usr/bin/esc" --on_Signal="/usr/bin/esc"
+18814 ?        Sl     0:00 /usr/libexec/gvfs-afc-volume-monitor
+18819 ?        S      0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+18821 ?        S      0:00 rhsm-icon
+18825 ?        S      0:00 /usr/libexec/polkit-gnome-authentication-agent-1
+18827 ?        S      0:00 /usr/libexec/im-settings-daemon
+18828 ?        SL     0:00 krb5-auth-dialog
+18988 ?        S      0:00 /usr/libexec/gconf-im-settings-daemon
+18998 ?        S      0:00 /usr/libexec/clock-applet --oaf-activate-iid=OAFIID:GNOME_ClockApplet_Factory --oaf-ior-fd=34
+19000 ?        S      0:00 /usr/libexec/notification-area-applet --oaf-activate-iid=OAFIID:GNOME_NotificationAreaApplet_Factory --oaf-ior-fd=37
+19001 ?        S      0:00 /usr/bin/gnote --panel-applet --oaf-activate-iid=OAFIID:GnoteApplet_Factory --oaf-ior-fd=22
+19002 ?        S      0:00 /usr/libexec/gdm-user-switch-applet --oaf-activate-iid=OAFIID:GNOME_FastUserSwitchApplet_Factory --oaf-ior-fd=28
+19007 ?        Ss     0:00 gnome-screensaver
+19017 ?        S      0:00 [flush-0:35]
+19042 ?        S      0:00 /usr/libexec/gvfsd-metadata
+19086 ?        S      0:00 /usr/libexec/gvfsd-burn --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+19403 ?        Sl     8:34 /usr/lib64/firefox/firefox
+19691 pts/0    T      0:00 ./lsh
+20032 ?        Sl     1:47 /usr/lib64/xulrunner/plugin-container /usr/lib64/flash-plugin/libflashplayer.so -greomni /usr/lib64/xulrunner/omni.ja -appomni /usr/lib64/firefox/omni.ja 19403 plugin
+20994 pts/0    T      0:00 ./lsh
+21160 pts/0    T      0:00 wc -l
+21161 pts/0    T      0:00 wc -l
+22529 pts/0    T      0:00 ./lsh
+24451 ?        S      0:00 pickup -l -t fifo -u
+24584 pts/0    T      0:00 ./lsh
+24744 pts/0    T      0:00 wc -l
+24745 pts/0    R     82:51 ./lsh
+25614 pts/0    T      0:00 man execvp
+25621 pts/0    T      0:00 sh -c (cd "/usr/share/man" && (echo ".pl 1100i"; /usr/bin/gunzip -c '/usr/share/man/man3/exec.3.gz'; echo ".\\\""; echo ".pl \n(nlu+10") | /usr/bin/gtbl | /usr/bin/nroff -c -mandoc 2>/dev/null | /usr/bin/less -is)
+25622 pts/0    T      0:00 sh -c (cd "/usr/share/man" && (echo ".pl 1100i"; /usr/bin/gunzip -c '/usr/share/man/man3/exec.3.gz'; echo ".\\\""; echo ".pl \n(nlu+10") | /usr/bin/gtbl | /usr/bin/nroff -c -mandoc 2>/dev/null | /usr/bin/less -is)
+25627 pts/0    T      0:00 /usr/bin/less -is
+26115 pts/0    T      0:00 ./lsh
+27108 pts/0    T      0:00 ./lsh
+30136 pts/0    T      0:00 ./lsh
+30404 pts/0    T      0:00 wc -l
+30405 pts/0    T      0:00 wc -l
+30409 pts/0    T      0:00 ./lsh
+30831 pts/1    Ss     0:00 /bin/bash
+31170 pts/0    T      0:00 ./lsh
+31455 pts/0    T      0:00 ./lsh
+31803 pts/0    T      0:00 ./lsh
+32464 pts/0    T      0:00 wc
+32668 pts/1    T      0:00 wc
